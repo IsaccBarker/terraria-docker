@@ -20,7 +20,7 @@ RUN unzip $TSHOCKZIP -d /tshock && \
 
 FROM mono:6.12.0.122-slim
 
-LABEL maintainer="Ryan Sheehan <rsheehan@gmail.com>"
+LABEL maintainer="Milo Banks"
 
 # documenting ports
 EXPOSE 7777 7878
